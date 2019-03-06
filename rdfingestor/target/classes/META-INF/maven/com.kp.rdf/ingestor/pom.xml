@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kp.rdf</groupId>
+  <artifactId>ingestor</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+   <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+  
+  <repositories>
+   <repository>
+     <id>stardog-public</id>
+     <url>https://maven.stardog.com</url>
+   </repository>
+</repositories>
+  
+  <dependencies>
+  <dependency>
+  <groupId>org.eclipse.rdf4j</groupId>
+  <artifactId>rdf4j-runtime</artifactId>
+  <version>2.4.3</version>
+  </dependency>
+  
+  <dependency>
+  <groupId>com.complexible.stardog.rdf4j</groupId>
+  <artifactId>stardog-rdf4j</artifactId>
+  <version>6.0.0</version>
+  </dependency>
+  
+  
+  </dependencies>
+  
+</project>
